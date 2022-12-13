@@ -2,6 +2,10 @@ plugins {
     id 'java'
 }
 
+plugins {
+	id 'jacoco'
+}
+
 repositories {
     mavenCentral()
 }
